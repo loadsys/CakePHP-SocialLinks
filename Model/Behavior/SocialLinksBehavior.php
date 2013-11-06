@@ -202,12 +202,12 @@ class SocialLinksBehavior extends ModelBehavior {
 		$_ModelValidator[$propertyName] = array(
 			'alphanumeric_with_dot' => array(
 				'rule' => '/^[a-zA-Z0-9.]/',
-				'message' => 'Please enter a valid Facebook username',
+				'message' => 'Please enter a valid Facebook username or custom url',
 				'allowEmpty' => TRUE,
 			),
 			'between' => array(
-				'rule'    => array('between', 5, 30),
-				'message' => 'Please enter a valid Facebook username, must be between 5 and 30 characters long',
+				'rule'    => array('between', 5, 255),
+				'message' => 'Please enter a valid Facebook username or custom url, must be between 5 and 255 characters long',
 				'allowEmpty' => TRUE,
 			),
 		);
