@@ -1,0 +1,21 @@
+{
+  "name": "loadsys/cakephp_sociallinks",
+  "type": "cakephp-plugin",
+  "description": "A CakePHP Plugin for adding Social Links to a Model",
+  "keywords": ["cakephp","model","behavior"],
+  "licence": "MIT",
+  "authors": [
+    {
+      "name": "Justin Yost",
+      "homepage": "https://github.com/jtyost2",
+      "email": "justin.yost@yostivanich.com"
+    }
+  ],
+  "support": {
+      "issues": "https://github.com/loadsys/CakePHP-SocialLinks/issues",
+      "source": "https://github.com/loadsys/CakePHP-SocialLinks"
+  },
+  "require": {
+    "php": ">=5.3.0",
+  }
+}
