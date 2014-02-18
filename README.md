@@ -13,6 +13,18 @@ Currently has a behavior to add the fields along with validation to the model
 
 ##Installation##
 
+_[Composer]_
+
+Ensure `require` is present in `composer.json`. This will install the plugin into `Plugin/SocialLinks`:
+
+```
+{
+    "require": {
+	"loadsys/cakephp_sociallinks": "dev-master",
+    }
+}
+```
+
 _[Manual]_
 
 * Download this: http://github.com/loadsys/CakePHP-SocialLinks/zipball/master
