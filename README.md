@@ -13,67 +13,67 @@ Currently has a behavior to add the fields along with validation to the model
 
 ##Installation##
 
-_[Composer]_
+### Composer ###
 
 Ensure `require` is present in `composer.json`. This will install the plugin into `Plugin/SocialLinks`:
 
-```
+````bash
 {
-    "require": {
-	"loadsys/cakephp_sociallinks": "dev-master",
-    }
+	"require": {
+		"loadsys/cakephp_sociallinks": "dev-master",
+	}
 }
-```
+````
 
-_[Manual]_
-
-* Download this: http://github.com/loadsys/CakePHP-SocialLinks/zipball/master
-* Unzip that download.
-* Copy the resulting folder to app/Plugin
-* Rename the folder you just copied to @SocialLinks@
-
-_[GIT Submodule]_
+### GIT Submodule ###
 
 In your app directory type:
-<pre><code>git submodule add git://github.com/loadsys/CakePHP-SocialLinks.git Plugin/SocialLinks
+
+````bash
+git submodule add git://github.com/loadsys/CakePHP-SocialLinks.git Plugin/SocialLinks
 git submodule init
 git submodule update
-</code></pre>
+````
 
-_[GIT Clone]_
+### GIT Clone ###
 
-In your Plugin directory type
-<pre><code>git clone git://github.com/loadsys/CakePHP-SocialLinks.git SocialLinks</code></pre>
+In your Plugin directory type:
+
+````bash
+git clone git://github.com/loadsys/CakePHP-SocialLinks.git SocialLinks
+````
 
 ## Usage ##
 
 * Add The Plugin to your application by adding this line to your bootstrap.php
-<pre><code>CakePlugin::load('SocialLinks');</pre></code>
+
+````php
+CakePlugin::load('SocialLinks');
+````
+
 * Add Behavior to the Model, each parameter is the database field name, or FALSE to not include that field
-<pre><code>
+
+````php
 public $actsAs = array(
 	'SocialLinks.SocialLinks' => array(
-		'blog' => 'blog',
-		'pinterest' => FALSE,
-		'googleplus' => 'googleplus',
-		'youtube' => 'youtube',
-		'linkedin' => 'linkedin',
-		'facebook' => 'facebook',
-		'twitter' => 'twitter',
+		'blog' => 'blog', //blog field name in the database, or FALSE if you don't have this field
+		'pinterest' => FALSE, //pinterest field name in the database, or FALSE if you don't have this field
+		'googleplus' => 'googleplus', //googleplus field name in the database, or FALSE if you don't have this field
+		'youtube' => 'youtube', //youtube field name in the database, or FALSE if you don't have this field
+		'linkedin' => 'linkedin', //linkedin field name in the database, or FALSE if you don't have this field
+		'facebook' => 'facebook', //facebook field name in the database, or FALSE if you don't have this field
+		'twitter' => 'twitter', //twitter field name in the database, or FALSE if you don't have this field
 	),
 );
+````
 
+## Contributing
 
-## Options ##
+* Fork the plugin to your Github account
+* Checkout the plugin
+* Create a new branch with your changes
+* Issue a PR back to the master branch with your changes
 
-* blog : blog field name in the database, or FALSE if you don't have this field
-* pinterest : pinterest field name in the database, or FALSE if you don't have this field
-* googleplus : googleplus field name in the database, or FALSE if you don't have this field
-* youtube : youtube field name in the database, or FALSE if you don't have this field
-* linkedin : linkedin field name in the database, or FALSE if you don't have this field
-* facebook : facebook field name in the database, or FALSE if you don't have this field
-* twitter : twitter field name in the database, or FALSE if you don't have this field
+##License
 
-## Todo ##
-
-* Unit Tests
+Copyright (c) 2013 Loadsys Web Strategies
