@@ -1,6 +1,6 @@
 {
   "name": "loadsys/cakephp_sociallinks",
-  "description": "A CakePHP Plugin for adding Social Links to a Model",
+  "description": "Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc.",
   "type": "cakephp-plugin",
   "keywords": [
     "cakephp",
