@@ -1,8 +1,14 @@
-# SocialLinks Plugin #
+# CakePHP-SocialLinks
+
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+<!--
+[![Build Status](https://travis-ci.org/loadsys/CakePHP-SocialLinks.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
+[![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
+-->
 
 Add fields to a model for storing Social Links, eg. Blog, Facebook, Twitter, etc.
 
-##Background##
+## Background
 
 Currently has a behavior to add the fields along with validation to the model
 
