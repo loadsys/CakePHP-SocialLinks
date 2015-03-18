@@ -1,4 +1,17 @@
 <?php
+/**
+ * SocialLinks Behavior
+ *
+ * Loads a a behavior for defining fields for social sites and providing validation
+ * for the value
+ */
+App::uses('ModelBehavior', 'Model');
+
+/**
+ * SocialLiks Behavior
+ *
+ * @package SocialLinks.Model.Behavior
+ */
 class SocialLinksBehavior extends ModelBehavior {
 
 	/**
