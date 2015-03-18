@@ -6,11 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
 -->
 
-Add fields to a model for storing Social Links, eg. Blog, Facebook, Twitter, etc.
-
-## Background
-
-Currently has a behavior to add the fields along with validation to the model
+Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc.
 
 ## Requirements ##
 
