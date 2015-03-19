@@ -13,36 +13,18 @@ Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc
 * PHP 5.3+
 * CakePHP 2.1+
 
-##Installation##
+## Installation
 
-### Composer ###
-
-Ensure `require` is present in `composer.json`. This will install the plugin into `Plugin/SocialLinks`:
+### Composer
 
 ````bash
-{
-	"require": {
-		"loadsys/cakephp_sociallinks": "dev-master",
-	}
-}
+php composer.phar require loadsys/cakephp_sociallinks "~1.0"
 ````
 
-### GIT Submodule ###
-
-In your app directory type:
+### GIT Clone
 
 ````bash
-git submodule add git://github.com/loadsys/CakePHP-SocialLinks.git Plugin/SocialLinks
-git submodule init
-git submodule update
-````
-
-### GIT Clone ###
-
-In your Plugin directory type:
-
-````bash
-git clone git://github.com/loadsys/CakePHP-SocialLinks.git SocialLinks
+git clone git@github.com:loadsys/CakePHP-SocialLinks.git Plugin/SocialLinks
 ````
 
 ## Usage ##
