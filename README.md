@@ -18,7 +18,7 @@ Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc
 ### Composer
 
 ````bash
-php composer.phar require loadsys/cakephp_sociallinks "~1.0"
+php composer.phar require loadsys/cakephp_sociallinks:~1.0
 ````
 
 ### GIT Clone
