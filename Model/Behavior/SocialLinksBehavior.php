@@ -19,7 +19,7 @@ class SocialLinksBehavior extends ModelBehavior {
 	 *
 	 * @var array
 	 */
-	protected $settings = array(
+	public $settings = array(
 		'blog' => 'blog',
 		'pinterest' => 'pinterest',
 		'googleplus' => 'googleplus',
