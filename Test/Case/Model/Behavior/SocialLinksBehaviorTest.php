@@ -1,9 +1,13 @@
 <?php
+/**
+ * Tests the SocialLinks Behavior Class
+ */
 App::uses('SocialLinksBehavior', 'SocialLinks.Model/Behavior');
 
 /**
- * SocialLinks Test Case
+ * SocialLinksBehaviorTest
  *
+ * @package SocialLinks.Test.Case.Model.Behavior
  */
 class SocialLinksBehaviorTest extends CakeTestCase {
 
@@ -39,6 +43,11 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 		parent::tearDown();
 	}
 
+	/**
+	 * tests incomplete
+	 *
+	 * @return void
+	 */
 	public function testsIncomplete() {
 		$this->markTestIncomplete("No tests written for SocialLinksBehaviorTest");
 	}
