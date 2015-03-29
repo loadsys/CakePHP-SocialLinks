@@ -10,7 +10,7 @@ env:
   global:
     - PLUGIN_NAME=SocialLinks
     - REQUIRE="phpunit/phpunit=3.7.33 loadsys/loadsys_codesniffer=*"
-    - PHPCS_ARGS="-p --extensions=php --standard=vendor/loadsys/loadsys_codesniffer/Loadsys ./Plugin/$PLUGIN_NAME"
+    - PHPCS_ARGS="-p --extensions=php --standard=vendor/loadsys/loadsys_codesniffer/Loadsys --ignore=vendor/ ."
 
   matrix:
     - DB=mysql CAKE_VERSION=2.3
