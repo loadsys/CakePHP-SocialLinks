@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/loadsys/CakePHP-SocialLinks.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
 <!--
 [![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
+[![Coverage Status](https://coveralls.io/repos/loadsys/CakePHP-SocialLinks/badge.svg)](https://coveralls.io/r/loadsys/CakePHP-SocialLinks)
 -->
 
 Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc.
