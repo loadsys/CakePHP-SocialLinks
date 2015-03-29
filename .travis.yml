@@ -21,10 +21,9 @@ env:
 matrix:
   fast_finish: true
   include:
-    # Commented Out Coveralls Support - not currently working
-    #- php: 5.4
-    #  env:
-    #    - COVERALLS=1
+    - php: 5.4
+      env:
+	- COVERALLS=1
     - php: 5.4
       env:
         - PHPCS=1
