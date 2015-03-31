@@ -1,8 +1,8 @@
 # CakePHP-SocialLinks
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-<!--
 [![Build Status](https://travis-ci.org/loadsys/CakePHP-SocialLinks.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
+<!--
 [![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
 -->
 
