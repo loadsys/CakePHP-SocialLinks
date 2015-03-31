@@ -120,6 +120,32 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				true,
 			),
 
+			// pinterest field
+			"pinterest, Valid String" => array(
+				"pinterest",
+				"random",
+				true,
+			),
+			"pinterest, Valid Mixed AlphaNumeric String" => array(
+				"pinterest",
+				"asdfkl345",
+				true,
+			),
+			"pinterest, `null`" => array(
+				"pinterest",
+				null,
+				true,
+			),
+			"pinterest, Invalid String, too short" => array(
+				"pinterest",
+				"12",
+				false,
+			),
+			"pinterest, Invalid String, too long" => array(
+				"pinterest",
+				"12random1234567890",
+				false,
+			),
 		);
 	}
 
