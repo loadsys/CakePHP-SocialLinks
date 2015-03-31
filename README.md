@@ -1,5 +1,6 @@
 # CakePHP-SocialLinks
 
+[![Latest Version](https://img.shields.io/github/release/loadsys/CakePHP-SocialLinks.svg?style=flat-square)](https://github.com/loadsys/CakePHP-SocialLinks/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/loadsys/CakePHP-SocialLinks.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
 <!--
