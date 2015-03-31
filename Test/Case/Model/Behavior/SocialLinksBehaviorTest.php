@@ -86,6 +86,11 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 		}
 	}
 
+	/**
+	 * data provider for the testsValidationForField method
+	 *
+	 * @return array data inputs for the testsValidationForField method
+	 */
 	public function providerValidationForField() {
 		return array(
 			// blog field
@@ -114,6 +119,7 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				null,
 				true,
 			),
+
 		);
 	}
 
