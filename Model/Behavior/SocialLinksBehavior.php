@@ -19,7 +19,7 @@ class SocialLinksBehavior extends ModelBehavior {
 	 *
 	 * @var array
 	 */
-	public $settings = array(
+	protected $coreSettings = array(
 		'blog' => 'blog',
 		'pinterest' => 'pinterest',
 		'googleplus' => 'googleplus',
@@ -28,6 +28,13 @@ class SocialLinksBehavior extends ModelBehavior {
 		'facebook' => 'facebook',
 		'twitter' => 'twitter',
 	);
+
+	/**
+	 * Settings used by the Behavior
+	 *
+	 * @var array
+	 */
+	public $settings = array();
 
 	/**
 	 * Initiate behavior for the model using specified settings.
@@ -48,7 +55,7 @@ class SocialLinksBehavior extends ModelBehavior {
 	 */
 	public function setup(Model $Model, $settings = array()) {
 		if (!isset($this->settings[$Model->alias])) {
-			$this->settings[$Model->alias] = $this->settings;
+			$this->settings[$Model->alias] = $this->coreSettings;
 		}
 		$this->settings[$Model->alias] = array_merge($this->settings[$Model->alias], $settings);
 	}
@@ -64,7 +71,7 @@ class SocialLinksBehavior extends ModelBehavior {
 		$ModelValidatorClass = $Model->validator();
 
 		// foreach key in the settings array
-		foreach($this->settings as $key => $settingValue):
+		foreach($this->coreSettings as $key => $settingValue):
 
 			// If the setting isn't set to false
 			if ($this->settings[$Model->alias][$key] !== false) {
