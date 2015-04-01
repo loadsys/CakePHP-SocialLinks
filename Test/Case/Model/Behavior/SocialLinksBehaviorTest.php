@@ -244,6 +244,28 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				"12random123456789asdfasdfasdfasdfasdfasdf0ASLDKFJASDLFJASAFFfffffffffffffljadaljsdfljasdflajsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasd",
 				false,
 			),
+
+			// twitter field
+			"twitter, Valid String" => array(
+				"twitter",
+				"random",
+				true,
+			),
+			"twitter, Valid Mixed AlphaNumeric String" => array(
+				"twitter",
+				"as_dfk_l345",
+				true,
+			),
+			"twitter, `null`" => array(
+				"twitter",
+				null,
+				true,
+			),
+			"twitter, Invalid String, too long" => array(
+				"twitter",
+				"12random123456789asdfasdfasdf0",
+				false,
+			),
 		);
 	}
 
