@@ -146,6 +146,28 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				"12random1234567890",
 				false,
 			),
+
+			// googleplus field
+			"googleplus, Valid String" => array(
+				"googleplus",
+				"random",
+				true,
+			),
+			"googleplus, Valid Mixed AlphaNumeric String" => array(
+				"googleplus",
+				"asdfkl345",
+				true,
+			),
+			"googleplus, `null`" => array(
+				"googleplus",
+				null,
+				true,
+			),
+			"googleplus, Invalid String, too long" => array(
+				"googleplus",
+				"aasldkfjalsdjkfalsjdflyuiyoiuyuoiyuioyuyuyiuyuoiyouiyoiuyuiouyi",
+				false,
+			),
 		);
 	}
 
