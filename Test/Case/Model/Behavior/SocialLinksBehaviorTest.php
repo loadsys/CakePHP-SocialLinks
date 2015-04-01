@@ -190,6 +190,33 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				"aasldkfjalsdjkfalsjdflyuiyoiuyuoiyuioyuyuyiuyuoiyouiyoiuyuiouyi",
 				false,
 			),
+
+			// linkedin field
+			"linkedin, Valid String" => array(
+				"linkedin",
+				"random",
+				true,
+			),
+			"linkedin, Valid Mixed AlphaNumeric String" => array(
+				"linkedin",
+				"asdfkl345",
+				true,
+			),
+			"linkedin, `null`" => array(
+				"linkedin",
+				null,
+				true,
+			),
+			"linkedin, Invalid String, too short" => array(
+				"linkedin",
+				"12",
+				false,
+			),
+			"linkedin, Invalid String, too long" => array(
+				"linkedin",
+				"12random123456789asdfasdfasdfasdfasdfasdf0",
+				false,
+			),
 		);
 	}
 
