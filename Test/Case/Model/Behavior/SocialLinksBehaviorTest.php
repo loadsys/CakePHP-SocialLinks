@@ -168,6 +168,28 @@ class SocialLinksBehaviorTest extends CakeTestCase {
 				"aasldkfjalsdjkfalsjdflyuiyoiuyuoiyuioyuyuyiuyuoiyouiyoiuyuiouyi",
 				false,
 			),
+
+			// youtube field
+			"youtube, Valid String" => array(
+				"youtube",
+				"random",
+				true,
+			),
+			"youtube, Valid Mixed AlphaNumeric String" => array(
+				"youtube",
+				"asdfkl345",
+				true,
+			),
+			"youtube, `null`" => array(
+				"youtube",
+				null,
+				true,
+			),
+			"youtube, Invalid String, too long" => array(
+				"youtube",
+				"aasldkfjalsdjkfalsjdflyuiyoiuyuoiyuioyuyuyiuyuoiyouiyoiuyuiouyi",
+				false,
+			),
 		);
 	}
 
