@@ -3,10 +3,8 @@
 [![Latest Version](https://img.shields.io/github/release/loadsys/CakePHP-SocialLinks.svg?style=flat-square)](https://github.com/loadsys/CakePHP-SocialLinks/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/loadsys/CakePHP-SocialLinks.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
-<!--
-[![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
 [![Coverage Status](https://coveralls.io/repos/loadsys/CakePHP-SocialLinks/badge.svg)](https://coveralls.io/r/loadsys/CakePHP-SocialLinks)
--->
+[![Total Downloads](https://img.shields.io/packagist/dt/loadsys/cakephp_sociallinks.svg?style=flat-square)](https://packagist.org/packages/loadsys/cakephp_sociallinks)
 
 Adds fields to a model for saving social links, eg. Blog, Facebook, Twitter, etc.
 
