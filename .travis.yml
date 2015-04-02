@@ -21,12 +21,15 @@ env:
 matrix:
   fast_finish: true
   include:
-    # Commented Out Coveralls Support - not currently working
-    #- php: 5.4
-    #  env:
-    #    - COVERALLS=1
-    - php: 5.4
+    - php: 5.6
       env:
+      - COVERALLS=1
+      - DB=mysql
+      - CAKE_VERSION=2.6
+    - php: 5.6
+      env:
+        - DB=mysql
+        - CAKE_VERSION=2.6
         - PHPCS=1
 
 before_install:
